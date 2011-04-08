@@ -1,0 +1,5 @@
+{
+    "cmd": ["cmd.exe", "/c", "start", "sasswatch.bat", "$file_path"],
+    "working_dir": "$packages/Ruby SASS",
+    "selector": "source.sass"
+}
