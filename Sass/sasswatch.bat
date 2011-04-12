@@ -1,2 +1,3 @@
-sass --watch %1:%1
+cd /d %1
+sass --watch .:.
 pause
