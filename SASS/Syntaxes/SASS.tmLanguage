@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>sass</string>
+		<string>scss</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>/\*|^#|^\*|^\b|^\.</string>
