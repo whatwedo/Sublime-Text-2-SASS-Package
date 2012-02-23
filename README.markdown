@@ -3,6 +3,14 @@ Sublime Text 2 SCSS/SASS Package
 
 Contains syntax highlighting and build commands for Windows, Linux and OSX.
 
+Important: Your folder structure should look like this:
+
+yourproject/stylesheets
+yourproject/sass
+yourproject/project.sublime-project
+
+A Sublime Text 2 Project File in the root of your project is necessary
+
 
 INSTALLATION
 ------------------------------------
@@ -21,6 +29,11 @@ INSTALLATION
 
 2. Once that folder is open, close Sublime Text 2.
 
-3. Move the two directories: /SASS/, and /Ruby Haml/ to that folder.
+3. Rename folder to SASS and move it in the package folder
 
 4. Restart Sublime Text 2.
+
+Build
+------------------------------------
+
+Open one of your .sass files and press CTRL + B (or Tools > Build).
