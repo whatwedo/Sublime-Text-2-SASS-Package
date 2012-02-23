@@ -1,35 +1,18 @@
-Textmate with alternative SASS Syntax
+Sublime Text 2 SCSS/SASS Package
 =======================================
 
-For those of you how prefer the alternative Sass Synatx:
-
-    .pagination
-      margin: 10px 0 10px 0
-      text-align: center
-      font-size: 14px
-      span
-        color: #000
-      span.disabled
-        display: none
-      a 
-        margin: 0 1px 0 1px
-
-Regards, Kalle
+Contains syntax highlighting and build commands for Windows, Linux and OSX.
 
 
 INSTALLATION
 ------------------------------------
 
-cd ~/Library/"Application Support"/TextMate/Bundles/
+1. Go to menu bar: "Sublime Text 2 > Preferences > Browse Packages..."
+   - Alternate method, on OS X, in Terminal:
+   - $ cd ~/Library/Application Support/Sublime Text 2/Packages
 
-if that directory wasn't found, you'll need to create it, then:
+2. Once that folder is open, close Sublime Text 2.
 
-git clone git://github.com/fluxsaas/sass-textmate-bundle.git "Ruby-Saas-Alternative-Syntax.tmbundle"
+3. Move the two directories: /SASS/, and /Ruby Haml/ to that folder.
 
-
-THANKS
-------------------------------------
-
-this bundle is based on the excellent css bundle from minimal design http://minimaldesign.net/downloads/tools/textmate-css-bundle use both and become an efficient designer!
-
-Robert Gaal for his support http://github.com/robertgaal
+4. Restart Sublime Text 2.
