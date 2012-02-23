@@ -1,3 +1,3 @@
 cd /d %1
-sass --watch %2:%3
+sass --watch %2:%3 --style compressed
 pause

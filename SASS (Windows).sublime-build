@@ -1,5 +1,5 @@
 {
-    "cmd": ["cmd.exe", "/c", "start", "sasswatch.bat", "$file_path", "$project_path/sass", "$project_path/stylesheets" ],
+    "cmd": ["cmd.exe", "/c", "start", "sasswatch.bat", "$project_path", "sass", "stylesheets"],
     "working_dir": "$packages/SASS",
     "selector": "source.sass"
 }
