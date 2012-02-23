@@ -1,5 +1,5 @@
 {
-    "cmd": ["sass", "--watch", "sass:stylesheets", "--style compressed"],
+    "cmd": ["sass", "--watch", "sass:stylesheets", "--style", "compressed"],
     "working_dir": "$project_path",
     "selector": "source.sass"
 }
