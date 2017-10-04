@@ -1,3 +1,5 @@
+![abandoned](http://img.shields.io/badge/status-abandoned-red.png)
+
 Sublime Text 2 SCSS/SASS Package
 =======================================
 
